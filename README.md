@@ -25,7 +25,7 @@ More instructions coming soon :)
 ```bash
 python style_patch_match.py --style path/to/style.jpg --content path/to/content.jpg --img_height 256 --img_width 256 --patch_h 8 --patch_w 8 --feature_type greyscale --comparison_metric l2 --out_dir output
 ```
-## Demo Images
+## Demo Images (leftmost image is the style thats being transfered)
 
 ### Lorem Ipsum Style Demo (8×8 patches)
 | <img src="lorem_ipsum_style_demo/lorem_ipsum.jpg" width="150"><br>**Lorem Ipsum** | <img src="lorem_ipsum_style_demo/stylized_charizard_from_lorem_ipsum_greyscale_l2_8x8.png" width="150"><br>**Stylized Charizard** | <img src="lorem_ipsum_style_demo/stylized_rizzler_from_lorem_ipsum_greyscale_l2_8x8.png" width="150"><br>**Stylized Rizzler** | <img src="lorem_ipsum_style_demo/stylized_snow_from_lorem_ipsum_greyscale_l2_8x8.png" width="150"><br>**Stylized Snow** | <img src="lorem_ipsum_style_demo/stylized_starry_night_from_style_greyscale_l2_8x8.png" width="150"><br>**Stylized Starry Night** |
